@@ -19,7 +19,7 @@
     {
       "id": 2,
       "libro": "Montanelli, Indro - Historia De Los Griegos - libgen.li.pdf",
-      "estado": "pendiente",
+      "estado": "aprobada",
       "comentario": "",
       "imagen_url": "",
       "imagen_prompt": "",
@@ -35,7 +35,7 @@
     {
       "id": 3,
       "libro": "Montanelli, Indro - Historia De Los Griegos - libgen.li.pdf",
-      "estado": "pendiente",
+      "estado": "aprobada",
       "comentario": "",
       "imagen_url": "",
       "imagen_prompt": "",
@@ -51,7 +51,7 @@
     {
       "id": 4,
       "libro": "Montanelli, Indro - Historia De Los Griegos - libgen.li.pdf",
-      "estado": "pendiente",
+      "estado": "eliminada",
       "comentario": "",
       "imagen_url": "",
       "imagen_prompt": "",
@@ -67,7 +67,7 @@
     {
       "id": 5,
       "libro": "Montanelli, Indro - Historia De Los Griegos - libgen.li.pdf",
-      "estado": "pendiente",
+      "estado": "eliminada",
       "comentario": "",
       "imagen_url": "",
       "imagen_prompt": "",
@@ -83,7 +83,7 @@
     {
       "id": 6,
       "libro": "Montanelli, Indro - Historia De Los Griegos - libgen.li.pdf",
-      "estado": "pendiente",
+      "estado": "eliminada",
       "comentario": "",
       "imagen_url": "",
       "imagen_prompt": "",
@@ -99,7 +99,7 @@
     {
       "id": 7,
       "libro": "Montanelli, Indro - Historia De Los Griegos - libgen.li.pdf",
-      "estado": "pendiente",
+      "estado": "eliminada",
       "comentario": "",
       "imagen_url": "",
       "imagen_prompt": "",
@@ -115,7 +115,7 @@
     {
       "id": 8,
       "libro": "Montanelli, Indro - Historia De Los Griegos - libgen.li.pdf",
-      "estado": "pendiente",
+      "estado": "eliminada",
       "comentario": "",
       "imagen_url": "",
       "imagen_prompt": "",
@@ -131,8 +131,8 @@
     {
       "id": 9,
       "libro": "Montanelli, Indro - Historia De Los Griegos - libgen.li.pdf",
-      "estado": "pendiente",
-      "comentario": "",
+      "estado": "modificar",
+      "comentario": "cambia la imagen, elimina el templo dorado",
       "imagen_url": "",
       "imagen_prompt": "",
       "horario_publicacion": "",
@@ -147,7 +147,7 @@
     {
       "id": 10,
       "libro": "Montanelli, Indro - Historia De Los Griegos - libgen.li.pdf",
-      "estado": "pendiente",
+      "estado": "eliminada",
       "comentario": "",
       "imagen_url": "",
       "imagen_prompt": "",
@@ -163,7 +163,7 @@
     {
       "id": 11,
       "libro": "Montanelli, Indro - Historia De Los Griegos - libgen.li.pdf",
-      "estado": "pendiente",
+      "estado": "eliminada",
       "comentario": "",
       "imagen_url": "",
       "imagen_prompt": "",
@@ -179,7 +179,7 @@
     {
       "id": 12,
       "libro": "Montanelli, Indro - Historia De Los Griegos - libgen.li.pdf",
-      "estado": "pendiente",
+      "estado": "eliminada",
       "comentario": "",
       "imagen_url": "",
       "imagen_prompt": "",
@@ -195,7 +195,7 @@
     {
       "id": 13,
       "libro": "Montanelli, Indro - Historia De Los Griegos - libgen.li.pdf",
-      "estado": "pendiente",
+      "estado": "aprobada",
       "comentario": "",
       "imagen_url": "",
       "imagen_prompt": "",
@@ -211,7 +211,7 @@
     {
       "id": 14,
       "libro": "Montanelli, Indro - Historia De Los Griegos - libgen.li.pdf",
-      "estado": "pendiente",
+      "estado": "eliminada",
       "comentario": "",
       "imagen_url": "",
       "imagen_prompt": "",
@@ -227,7 +227,7 @@
     {
       "id": 15,
       "libro": "Montanelli, Indro - Historia De Los Griegos - libgen.li.pdf",
-      "estado": "pendiente",
+      "estado": "eliminada",
       "comentario": "",
       "imagen_url": "",
       "imagen_prompt": "",
@@ -243,7 +243,7 @@
     {
       "id": 16,
       "libro": "Montanelli, Indro - Historia De Los Griegos - libgen.li.pdf",
-      "estado": "pendiente",
+      "estado": "eliminada",
       "comentario": "",
       "imagen_url": "",
       "imagen_prompt": "",
@@ -259,7 +259,7 @@
     {
       "id": 17,
       "libro": "Montanelli, Indro - Historia De Los Griegos - libgen.li.pdf",
-      "estado": "pendiente",
+      "estado": "eliminada",
       "comentario": "",
       "imagen_url": "",
       "imagen_prompt": "",
@@ -275,7 +275,7 @@
     {
       "id": 18,
       "libro": "Montanelli, Indro - Historia De Los Griegos - libgen.li.pdf",
-      "estado": "pendiente",
+      "estado": "eliminada",
       "comentario": "",
       "imagen_url": "",
       "imagen_prompt": "",
@@ -291,7 +291,7 @@
     {
       "id": 19,
       "libro": "Montanelli, Indro - Historia De Los Griegos - libgen.li.pdf",
-      "estado": "pendiente",
+      "estado": "eliminada",
       "comentario": "",
       "imagen_url": "",
       "imagen_prompt": "",
@@ -307,7 +307,7 @@
     {
       "id": 20,
       "libro": "Montanelli, Indro - Historia De Los Griegos - libgen.li.pdf",
-      "estado": "pendiente",
+      "estado": "eliminada",
       "comentario": "",
       "imagen_url": "",
       "imagen_prompt": "",
@@ -322,5 +322,5 @@
     }
   ],
   "instancia": 1,
-  "ciclo": 15
+  "ciclo": 3
 }
