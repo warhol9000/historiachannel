@@ -226,7 +226,7 @@
 // ─────────────────────────────────────────────
 // CONFIG — servidor local, sin tokens expuestos
 // ─────────────────────────────────────────────
-const SERVER = "https://ramble-paced-dormitory.ngrok-free.dev/";
+const SERVER = "http://localhost:8765";
 
 // ─────────────────────────────────────────────
 // STATE
@@ -340,10 +340,25 @@ function renderInstancia1() {
     </div>
     ${renderTimer()}`;
 
-  if (!ideas.length) {
+  const ideas_activas   = ideas.filter(i => i.estado !== "eliminada");
+  const ideas_eliminadas = ideas.filter(i => i.estado === "eliminada");
+
+  if (!ideas_activas.length && !ideas_eliminadas.length) {
     html += `<div class="empty"><div class="empty-icon">📭</div><h2>Sin ideas en Instancia 1</h2><p>Las ideas aparecerán cuando el pipeline las cargue.</p></div>`;
   } else {
-    ideas.forEach(idea => { html += renderCard1(idea); });
+    ideas_activas.forEach(idea => { html += renderCard1(idea); });
+    if (ideas_eliminadas.length) {
+      html += `
+        <div style="margin-top:32px;">
+          <div onclick="this.nextElementSibling.style.display=this.nextElementSibling.style.display==='none'?'block':'none'"
+               style="cursor:pointer;padding:12px 16px;background:var(--surface);border:1px solid var(--border);border-radius:4px;font-family:'DM Mono',monospace;font-size:12px;color:var(--text-dim);user-select:none;">
+            ▶ ELIMINADAS (${ideas_eliminadas.length})
+          </div>
+          <div style="display:none">
+            ${ideas_eliminadas.map(idea => renderCard1(idea)).join("")}
+          </div>
+        </div>`;
+    }
   }
   document.getElementById("mainContent").innerHTML = html;
 }
@@ -390,7 +405,7 @@ function renderCard1(idea) {
   return `
     <div class="card ${estado}" id="card_${idea.id}" onclick="toggleCard('card_${idea.id}', event)">
       <div class="card-header">
-        <div class="card-num">IDEA #${String(idea.id).padStart(2,"0")}</div>
+        <div class="card-num">${escHtml(idea.display || "IDEA #" + idea.id)}</div>
         <div class="card-hook">${escHtml(idea["Hook inicial"] || "(sin hook)")}</div>
         <div class="card-book">${escHtml((idea.libro||"").substring(0,25))}</div>
         <div class="badge ${estado}">${labelEstado(estado)}</div>
@@ -425,7 +440,7 @@ function renderCard2(idea) {
   return `
     <div class="card ${estado}" id="card_${idea.id}" onclick="toggleCard('card_${idea.id}', event)">
       <div class="card-header">
-        <div class="card-num">IDEA #${String(idea.id).padStart(2,"0")}</div>
+        <div class="card-num">${escHtml(idea.display || "IDEA #" + idea.id)}</div>
         <div class="card-hook">${escHtml(idea["Hook inicial"]||"(sin hook)")}</div>
         <div class="card-book">${escHtml((idea.libro||"").substring(0,25))}</div>
         <div class="badge ${estado}">${labelEstado(estado)}</div>
