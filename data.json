@@ -3,7 +3,7 @@
     {
       "id": 1,
       "libro": "Montanelli Indro - Historia De Los Griegos - libgen.li.pdf",
-      "estado": "pendiente",
+      "estado": "aprobada",
       "comentario": "",
       "imagen_url": "",
       "imagen_prompt": "",
@@ -19,7 +19,7 @@
     {
       "id": 2,
       "libro": "Montanelli Indro - Historia De Los Griegos - libgen.li.pdf",
-      "estado": "pendiente",
+      "estado": "aprobada",
       "comentario": "",
       "imagen_url": "",
       "imagen_prompt": "",
@@ -35,7 +35,7 @@
     {
       "id": 3,
       "libro": "Montanelli Indro - Historia De Roma - libgen.li.pdf",
-      "estado": "pendiente",
+      "estado": "eliminada",
       "comentario": "",
       "imagen_url": "",
       "imagen_prompt": "",
@@ -57,12 +57,12 @@
       "imagen_prompt": "",
       "horario_publicacion": "",
       "instancia": 1,
-      "Hook inicial": "Augusto sufrió su primera derrota por un ataque de diarrea.",
-      "Personaje o hecho histórico": "Augusto y la Batalla de Filipos",
-      "Por qué importa": "Esta anécdota muestra la fragilidad incluso de los más grandes líderes romanos. Augusto, el emperador que construyó el Imperio, casi fracasó debido a problemas de salud comunes. Esto desmonta la idea de que los líderes históricos son seres incorruptibles y omnipotentes, destacando la importancia de la vulnerabilidad humana en la toma de decisiones.",
-      "Imagen sugerida": "Augusto, con aspecto cansado y sudoroso, montado en su caballo durante la Batalla de Filipos, con una nube de vapor (simbolizando el ataque de diarrea) detrás de él.",
-      "Copy desarrollado": "Augusto, el emperador que llevó a Roma a su máxima extensión, no estaba ex免e de problemas. En la Batalla de Filipos, su primer gran enfrentamiento como líder, sufrió una derrota por una razón inesperada: un ataque de diarrea. Sí, imagínate, ¡un mal momentáneo que le impidió concentrarse y casi le costó la batalla! Este dato nos recuerda que incluso los más grandes líderes pueden ser derrotados por lo más común. La historia de Roma no es solo de triunfos, sino de vulnerabilidades humanas que, sin embargo, no impidieron que Augusto se convirtiera en uno de los más grandes emperadores de la historia. ¡Un ejemplo que nos enseña que la grandeza no excluye las derrotas!",
-      "Hashtags": "#HistoriaDeRoma #Augusto #BatallaFilipos #LiderHumano #DerrotaImperial #ProblemasDeSalud #ImperioRomano #HistoriaViral"
+      "Hook inicial": "La primera gran derrota de Augusto no fue por estrategia, sino por un mal de vientre en la Batalla de Filipos.",
+      "Personaje o hecho histórico": "Augusto en la Batalla de Filipos (166 a.C.)",
+      "Por qué importa": "Esta anécdota demuestra que la vulnerabilidad humana no es exclusiva de figuras contemporáneas, sino que también afectó a los líderes militares más destacados de la Antigua Grecia y Roma. La enfermedad de Augusto durante ese crucial enfrentamiento muestra que la capacidad de liderazgo puede verse afectada por los problemas de salud más comunes.",
+      "Imagen sugerida": "Augusto, montado a caballo en el bosque durante la Batalla de Filipos, con el rostro cansado y una nube de vapor sutil detrás de él. Detrás, el caos de la batalla: arqueros, caballería y terreno despejado.",
+      "Copy desarrollado": "En el año 166 a.C., el joven líder romano Augusto (entonces adalid de la República) se enfrentaba a su primera gran batalla decisiva: la de Filipos. Pero el destino tenía una jugarreta: un ataque de diarrea le incapacitó temporalmente durante la lucha. Detrás de la imagen de un líder invulnerable, esta historia nos recuerda que incluso los más grandes estrategas de la Antigua Roma eran humanos. Una enfermedad común pudo alterar el curso de la batalla y la trayectoria de un futuro emperador. Esta anécdota no es más que un recordatorio de que la grandeza histórica a menudo nace de superar las fragilidades. La derrota de Filipos por un mal momentáneo no fue el fin de Augusto, sino una página de su historia que nos habla de humanidad y lucha.",
+      "Hashtags": "#HistoriaDeRoma #Augusto #BatallaFilipos #HistoriaHumana #LiderHumano #DerrotaImperial #AntiguaGrecia #HistoriaViral"
     }
   ],
   "instancia": 1,
