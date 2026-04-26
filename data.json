@@ -1,0 +1,70 @@
+{
+  "ideas": [
+    {
+      "id": 1,
+      "libro": "Montanelli Indro - Historia De Los Griegos - libgen.li.pdf",
+      "estado": "pendiente",
+      "comentario": "",
+      "imagen_url": "",
+      "imagen_prompt": "",
+      "horario_publicacion": "",
+      "instancia": 1,
+      "Hook inicial": "\"¿Sabías que el famoso Laberinto podría ser solo una leyenda?\"",
+      "Personaje o hecho histórico": "El mito del Minotauro y el Laberinto en la civilización de Creta.",
+      "Por qué importa": "Combina la fascinación por la antigüedad con la duda histórica. Muestra cómo lo legendario y lo académico chocan, invitando a reflexionar sobre la naturaleza de la historia.",
+      "Imagen sugerida": "Imagen del Laberinto (como se imaginaba) con un texto en letras pequeñas que diga \"¿Existió realmente?\".",
+      "Copy desarrollado": "\"Hace siglos, la leyenda hablaba del Minotauro, el monstruo del Laberinto de Creta. ¿Fue historia o mito? Los arqueólogos modernos dudaban de su existencia, pero la fascinación persiste. Este cruce entre leyenda y arqueología muestra cómo la imaginación humana y la búsqueda de la verdad histórica se entrelazan, dejando espacio a la especulación. ¿Quién sabe si realmente hubo un monstruo en ese laberinto? La duda misma es parte de la historia.\"",
+      "Hashtags": "#HistoriaDeLosGriegos #Laberinto #MitoHistoria #Creta #Antigüedad #DudasHistoricas #Mitología #Minotauro"
+    },
+    {
+      "id": 2,
+      "libro": "Montanelli Indro - Historia De Los Griegos - libgen.li.pdf",
+      "estado": "pendiente",
+      "comentario": "",
+      "imagen_url": "",
+      "imagen_prompt": "",
+      "horario_publicacion": "",
+      "instancia": 1,
+      "Hook inicial": "¿Sabías que un loco convenció al mundo de que Homero tenía razón?",
+      "Personaje o hecho histórico": "Heinrich Schliemann y su descubrimiento del tesoro de Príamo en Troya.",
+      "Por qué importa": "Este dato sorprende porque muestra cómo un arqueólogo considerado loco logró demostrar la existencia de Troya y de los héroes homéricos, desafinando la idea de que Homero era solo un poeta mítico. Es relevante porque demuestra que la historia puede ser más real de lo que pensamos y cómo la perseverancia puede derrotar el escepticismo.",
+      "Imagen sugerida": "Imagen de lingotes de oro y plata bajo un cielo turco, con el texto \"El Tesoro de Príamo\" bordado en letras doradas sobre una roca.",
+      "Copy desarrollado": "En 1870, el arqueólogo Heinrich Schliemann, burlándose de la opinión de los eruditos, afirmó haber encontrado el famoso \"tesoro de Príamo\", miles de objetos de oro y plata que Homero describía como pertenencia de los reyes troyanos. Aunque muchos lo ridiculizaron, Schliemann seguía excavando. Su obsesión lo llevó a descubrir no solo el tesoro, sino también las tumbas de los héroes homéricos como Agamenón y Aquiles en Micenas. Su audaz atribución de los hallazgos a figuras de la épica de Homero revolucionó la arqueología y confirmó que la Iliada no era solo ficción. Hoy, esta apuesta arriesgada nos recuerda que a veces los más \"locos\" tienen la razón y que la historia puede estar más cerca de lo que imaginamos.",
+      "Hashtags": "#HistoriaDeLosGriegos #HeinrichSchliemann #TroyaExistio #DescubrimientosArqueologicos #Homero #Mitologia #HistoriaReal #GreciaAntigua"
+    },
+    {
+      "id": 3,
+      "libro": "Montanelli Indro - Historia De Roma - libgen.li.pdf",
+      "estado": "pendiente",
+      "comentario": "",
+      "imagen_url": "",
+      "imagen_prompt": "",
+      "horario_publicacion": "",
+      "instancia": 1,
+      "Hook inicial": "¿Sabías que César solía peinarse de bisoño porque se avergonzaba de su calvicie?",
+      "Personaje o hecho histórico": "Julio César",
+      "Por qué importa": "Este dato revela la fragilidad humana incluso de figuras icónicas como César, mostrando que, más allá de su poder y fama, tenía inseguridades como cualquier persona. Destaca cómo los líderes históricos también luchaban con problemas personales, lo que les hace más cercanos y comprensibles.",
+      "Imagen sugerida": "Julio César en una escena matutina, peinándose con detenimiento en un espejo, con aspecto de militar pero mostrando signos de fatiga o vergüenza.",
+      "Copy desarrollado": "En el corazón del Imperio Romano, Julio César no solo era un general brillante, sino también un hombre con inseguridades. ¿Sabías que este líder que conquistó Gaul y se convirtió en el máximo poder en Roma, solía peinarse de bisoño? ¡Sí! César, famoso por su confianza, se avergonzaba de su calvicie. Un gesto ridículo pero humano, que refleja cómo incluso los héroes tenían rasgos vulnerables. Este dato no solo nos muestra la verdadera humanidad de César, sino que nos recuerda que la grandeza no excluye las pequeñas batallas personales. ¡La historia de Roma gana en realismo precisamente por estos detalles!",
+      "Hashtags": "#HistoriaDeRoma #JulioCesar #Calvicie #LiderazgoHumano #PeinadosHistoricos #CesarImperador #PersonajesHistoricos #DatosCuriosos"
+    },
+    {
+      "id": 4,
+      "libro": "Montanelli Indro - Historia De Roma - libgen.li.pdf",
+      "estado": "pendiente",
+      "comentario": "",
+      "imagen_url": "",
+      "imagen_prompt": "",
+      "horario_publicacion": "",
+      "instancia": 1,
+      "Hook inicial": "Augusto sufrió su primera derrota por un ataque de diarrea.",
+      "Personaje o hecho histórico": "Augusto y la Batalla de Filipos",
+      "Por qué importa": "Esta anécdota muestra la fragilidad incluso de los más grandes líderes romanos. Augusto, el emperador que construyó el Imperio, casi fracasó debido a problemas de salud comunes. Esto desmonta la idea de que los líderes históricos son seres incorruptibles y omnipotentes, destacando la importancia de la vulnerabilidad humana en la toma de decisiones.",
+      "Imagen sugerida": "Augusto, con aspecto cansado y sudoroso, montado en su caballo durante la Batalla de Filipos, con una nube de vapor (simbolizando el ataque de diarrea) detrás de él.",
+      "Copy desarrollado": "Augusto, el emperador que llevó a Roma a su máxima extensión, no estaba ex免e de problemas. En la Batalla de Filipos, su primer gran enfrentamiento como líder, sufrió una derrota por una razón inesperada: un ataque de diarrea. Sí, imagínate, ¡un mal momentáneo que le impidió concentrarse y casi le costó la batalla! Este dato nos recuerda que incluso los más grandes líderes pueden ser derrotados por lo más común. La historia de Roma no es solo de triunfos, sino de vulnerabilidades humanas que, sin embargo, no impidieron que Augusto se convirtiera en uno de los más grandes emperadores de la historia. ¡Un ejemplo que nos enseña que la grandeza no excluye las derrotas!",
+      "Hashtags": "#HistoriaDeRoma #Augusto #BatallaFilipos #LiderHumano #DerrotaImperial #ProblemasDeSalud #ImperioRomano #HistoriaViral"
+    }
+  ],
+  "instancia": 1,
+  "ciclo": 0
+}
