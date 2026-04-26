@@ -35,11 +35,11 @@
     {
       "id": 3,
       "libro": "Montanelli, Indro - Historia De Los Griegos - libgen.li.pdf",
-      "estado": "pendiente",
-      "comentario": "",
+      "estado": "lista_para_publicar",
+      "comentario": "La imagen no va, tiene que mostrar unos bueyes",
       "imagen_url": "https://res.cloudinary.com/dyecvp809/image/upload/v1777184933/historiachannel/historiachannel_idea_3.png",
       "imagen_prompt": "Digital painting, classical historical art style. Un carro tirado por mulos, decorado con motivos sencillos, en un camino rural de Grecia arcaica. Detrás, una persona de aspecto elegante observa el vehículo. Detalles: paisaje montañoso típico, vestimenta variada (traje de lujo para el aristócrata, ropa más simple para los trabajadores), material del carro (madera simple).. Featuring La valoración del transporte en la sociedad griega arcaica.. Epic cinematic composition, rich colors, museum quality. No text, no watermarks.",
-      "horario_publicacion": "",
+      "horario_publicacion": "2026-04-26T10:35",
       "instancia": 2,
       "Hook inicial": "\"¿Sabías que un carro tirado por bueyes era el equivalente de un yate en la Antigua Grecia?\"",
       "Personaje o hecho histórico": "La valoración del transporte en la sociedad griega arcaica.",
@@ -195,7 +195,7 @@
     {
       "id": 13,
       "libro": "Montanelli, Indro - Historia De Los Griegos - libgen.li.pdf",
-      "estado": "pendiente",
+      "estado": "lista_para_publicar",
       "comentario": "",
       "imagen_url": "https://res.cloudinary.com/dyecvp809/image/upload/v1777210385/historiachannel/historiachannel_idea_13.png",
       "imagen_prompt": "Digital painting, classical historical art style. Un campamento dorio en el borde de Grecia, con soldados de estatura alta, cabello oscuro y ojos azules, bajo un cielo ateniense.. Featuring Los dorios como una raza nórdica.. Epic cinematic composition, rich colors, museum quality. No text, no watermarks.",
@@ -322,5 +322,5 @@
     }
   ],
   "instancia": 2,
-  "ciclo": 9
+  "ciclo": 5
 }
