@@ -3,7 +3,7 @@
     {
       "id": 1,
       "libro": "Montanelli Indro - Historia De Los Griegos - libgen.li.pdf",
-      "estado": "pendiente",
+      "estado": "lista_para_publicar",
       "comentario": "",
       "imagen_url": "https://res.cloudinary.com/dyecvp809/image/upload/v1777184825/historiachannel/historiachannel_idea_1.png",
       "imagen_prompt": "Digital painting, classical historical art style. Ícaro con las alas de cera empezando a derretirse en el cielo, con un atardecer dorado en Creta en el fondo.. Featuring Ícaro, hijo de Dédalo.. Epic cinematic composition, rich colors, museum quality. No text, no watermarks.",
@@ -19,7 +19,7 @@
     {
       "id": 2,
       "libro": "Montanelli Indro - Historia De Los Griegos - libgen.li.pdf",
-      "estado": "pendiente",
+      "estado": "lista_para_publicar",
       "comentario": "",
       "imagen_url": "https://res.cloudinary.com/dyecvp809/image/upload/v1777184877/historiachannel/historiachannel_idea_2.png",
       "imagen_prompt": "Digital painting, classical historical art style. Dédalo sentado en un acantilado de Sicilia, mirando el mar con tristeza, vestido con ropas de viajero, en una foto con tonos oscuros y dramáticos.. Featuring Dédalo, inventor y padre de Ícaro.. Epic cinematic composition, rich colors, museum quality. No text, no watermarks.",
@@ -35,7 +35,7 @@
     {
       "id": 3,
       "libro": "Montanelli Indro - Historia De Roma - libgen.li.pdf",
-      "estado": "pendiente",
+      "estado": "lista_para_publicar",
       "comentario": "",
       "imagen_url": "https://res.cloudinary.com/dyecvp809/image/upload/v1777184933/historiachannel/historiachannel_idea_3.png",
       "imagen_prompt": "Digital painting, classical historical art style. Julio César en una habitación privada, frente a un espejo, con el rostro y el pecho calvo, peinando su cabello rizado con mano firme pero temblorosa, mientras en el fondo se ve un atisbo de armadura y pergaminos.. Featuring Julio César. Epic cinematic composition, rich colors, museum quality. No text, no watermarks.",
@@ -51,7 +51,7 @@
     {
       "id": 4,
       "libro": "Montanelli Indro - Historia De Roma - libgen.li.pdf",
-      "estado": "pendiente",
+      "estado": "lista_para_publicar",
       "comentario": "",
       "imagen_url": "https://res.cloudinary.com/dyecvp809/image/upload/v1777185001/historiachannel/historiachannel_idea_4.png",
       "imagen_prompt": "Digital painting, classical historical art style. Augusto, en su uniforme militar de cuero y brocado, en una tienda de campaña desordenada, apoyado en un cabecero con un ataque repentino de diarrea, mientras en el fondo se ve la devastación de una batalla campal y un mapa desdibujado.. Featuring Augusto (Imperio Romano). Epic cinematic composition, rich colors, museum quality. No text, no watermarks.",
