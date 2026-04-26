@@ -6,7 +6,7 @@
       "estado": "aprobada",
       "comentario": "",
       "imagen_url": "",
-      "imagen_prompt": "",
+      "imagen_prompt": "Historical illustration for social media. Scene: Imagen del Laberinto (como se imaginaba) con un texto en letras pequeñas que diga \"¿Existió realmente?\".. Subject: El mito del Minotauro y el Laberinto en la civilización de Creta.. Style: dramatic, cinematic, high detail, epic composition. No text, no watermarks.",
       "horario_publicacion": "",
       "instancia": 1,
       "Hook inicial": "\"¿Sabías que el famoso Laberinto podría ser solo una leyenda?\"",
@@ -22,7 +22,7 @@
       "estado": "aprobada",
       "comentario": "",
       "imagen_url": "",
-      "imagen_prompt": "",
+      "imagen_prompt": "Historical illustration for social media. Scene: Imagen de lingotes de oro y plata bajo un cielo turco, con el texto \"El Tesoro de Príamo\" bordado en letras doradas sobre una roca.. Subject: Heinrich Schliemann y su descubrimiento del tesoro de Príamo en Troya.. Style: dramatic, cinematic, high detail, epic composition. No text, no watermarks.",
       "horario_publicacion": "",
       "instancia": 1,
       "Hook inicial": "¿Sabías que un loco convenció al mundo de que Homero tenía razón?",
@@ -51,10 +51,10 @@
     {
       "id": 4,
       "libro": "Montanelli Indro - Historia De Roma - libgen.li.pdf",
-      "estado": "pendiente",
+      "estado": "aprobada",
       "comentario": "",
       "imagen_url": "",
-      "imagen_prompt": "",
+      "imagen_prompt": "Historical illustration for social media. Scene: Augusto, montado a caballo en el bosque durante la Batalla de Filipos, con el rostro cansado y una nube de vapor sutil detrás de él. Detrás, el caos de la batalla: arqueros, caballería y terreno despejado.. Subject: Augusto en la Batalla de Filipos (166 a.C.). Style: dramatic, cinematic, high detail, epic composition. No text, no watermarks.",
       "horario_publicacion": "",
       "instancia": 1,
       "Hook inicial": "La primera gran derrota de Augusto no fue por estrategia, sino por un mal de vientre en la Batalla de Filipos.",
@@ -65,6 +65,6 @@
       "Hashtags": "#HistoriaDeRoma #Augusto #BatallaFilipos #HistoriaHumana #LiderHumano #DerrotaImperial #AntiguaGrecia #HistoriaViral"
     }
   ],
-  "instancia": 1,
-  "ciclo": 0
+  "instancia": 2,
+  "ciclo": 1
 }
