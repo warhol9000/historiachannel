@@ -131,18 +131,18 @@
     {
       "id": 9,
       "libro": "Montanelli, Indro - Historia De Los Griegos - libgen.li.pdf",
-      "estado": "modificar",
-      "comentario": "cambia la imagen, elimina el templo dorado",
+      "estado": "pendiente",
+      "comentario": "",
       "imagen_url": "",
       "imagen_prompt": "",
       "horario_publicacion": "",
       "instancia": 1,
-      "Hook inicial": "\"La noche duró 24 horas gracias a Zeus\" ¿Cómo afectó el amor divino a la humanidad?",
-      "Personaje o hecho histórico": "Zeus y el nacimiento de Hércules.",
-      "Por qué importa": "Esta anécdota única muestra la naturaleza caprichosa de los dioses en la mitología griega y cómo el amor divino influyó en la formación del héroe más famoso de Grecia.",
-      "Imagen sugerida": "Zeus en forma humana abrazando a Alcmena, con el cielo estrellado de Grecia antigua, bajo un templo dorado.",
-      "Copy desarrollado": "Zeus, antes de casarse con Hera, cayó en un profundo amor por Alcmena, una mujer de origen noble. Para estar con ella, alargó la noche de un día normal a veinticuatro horas. Hera, vengándose por esta infidelidad, envió serpientes para matar al recién nacido Hércules. Pero el pequeño superó el ataque con un gesto increíble: aplastó las serpientes con el pulgar. Así nació el invicto héroe, bautizado como \"Hércules\", el glorioso hijo de Hera.",
-      "Hashtags": "#MitologiaGrega #Hercules #Zeus #Alcmena #HistoriaDeGrecia"
+      "Hook inicial": "\"Zeus amó a Alcmena y alargó la noche... ¿Qué pasó luego?\"",
+      "Personaje o hecho histórico": "Zeus, Alcmena y el nacimiento de Hércules.",
+      "Por qué importa": "Un ejemplo fascinante de la naturaleza caprichosa de los dioses en la mitología griega, donde el amor divino dio lugar al nacimiento del héroe más famoso de Grecia, Hércules.",
+      "Imagen sugerida": "Zeus en forma humana abrazando a Alcmena bajo un cielo estrellado de Grecia antigua, sin templo.",
+      "Copy desarrollado": "Antes de casarse con Hera, Zeus se enamoró profundamente de Alcmena, una mujer noble. Para estar con ella, decidió alargar la noche de un día normal a veinticuatro horas. Cuando Hera descubrió la infidelidad, se vengó enviando serpientes para matar al recién nacido Hércules. Pero el pequeño superó el ataque con un increíble gesto: aplastó las serpientes con el pulgar. Así nació el invicto Hércules, el glorioso hijo de Hera y Zeus.",
+      "Hashtags": "#MitologiaGrega #Hercules #Zeus #Alcmena #HistoriaDeGrecia #Mitologia #GreciaAntigua #HistoriaViral"
     },
     {
       "id": 10,
