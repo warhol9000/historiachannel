@@ -87,7 +87,7 @@
     {
       "id": 6,
       "libro": "Montanelli, Indro - Historia De Los Griegos - libgen.li.pdf",
-      "estado": "pendiente",
+      "estado": "lista_para_publicar",
       "comentario": "",
       "imagen_url": "https://res.cloudinary.com/dyecvp809/image/upload/v1777187888/historiachannel/historiachannel_idea_6.png",
       "imagen_prompt": "Digital painting, classical historical art style. Fotografía realista en blanco y negro de ruinas de Cnosos con columnas derruidas y pórticos, bajo un cielo atestado de nubes. Detalles como fragmentos de frescos coloristas y una columna con inscripciones lineales B en el borde superior. Luz dramática que ilumina parcialmente la escena desde abajo.. Featuring El declive de Cnosos y la conquista micénica. Epic cinematic composition, rich colors, museum quality. No text, no watermarks.",
@@ -231,7 +231,7 @@
     {
       "id": 15,
       "libro": "Montanelli, Indro - Historia De Los Griegos - libgen.li.pdf",
-      "estado": "pendiente",
+      "estado": "lista_para_publicar",
       "comentario": "",
       "imagen_url": "https://res.cloudinary.com/dyecvp809/image/upload/v1777187943/historiachannel/historiachannel_idea_15.png",
       "imagen_prompt": "Digital painting, classical historical art style. Una foto realista de los restos arqueológicos de la ciudad de Troyo VI en Turquía, con el relieve del Tíber de fondo, mostrando fragmentos de cerámica y estructuras rupestres en la luz tenue del amanecer.. Featuring La invención de la ciudad de Troya por Heinrich Schliemann. Epic cinematic composition, rich colors, museum quality. No text, no watermarks.",
@@ -390,5 +390,5 @@
     }
   ],
   "instancia": 2,
-  "ciclo": 21
+  "ciclo": 20
 }
