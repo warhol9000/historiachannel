@@ -25,12 +25,12 @@
       "numero_idea": 2,
       "display": "Lote 1 — Idea 2",
       "libro": "Montanelli, Indro - Historia De Los Griegos - libgen.li.pdf",
-      "estado": "aprobada",
+      "estado": "pendiente",
       "comentario": "",
-      "imagen_url": "",
+      "imagen_url": "https://res.cloudinary.com/dyecvp809/image/upload/v1777214664/historiachannel/L001_I002_a5179a8f8418.jpg",
       "imagen_prompt": "Digital painting, classical historical art style. Vista aérea de Cnosos con ruinas minoicas y al fondo el mar Mediterráneo. Detalles arquitectónicos como escaleras interiores y mosaicos en las paredes.. Featuring La civilización minoica en Creta.. Epic cinematic composition, rich colors, museum quality. No text, no watermarks.",
       "horario_publicacion": "",
-      "instancia": 1,
+      "instancia": 2,
       "Hook inicial": "¿Sabías que la civilización minoica fue la primera europea y aún hoy los historiadores debaten su origen?",
       "Personaje o hecho histórico": "La civilización minoica en Creta.",
       "Por qué importa": "Fue la primera civilización europea con un impacto cultural enorme en Grecia y Roma, y su origen sigue siendo un misterio para los estudiosos.",
@@ -97,5 +97,5 @@
     }
   ],
   "instancia": 1,
-  "ciclo": 1
+  "ciclo": 2
 }
