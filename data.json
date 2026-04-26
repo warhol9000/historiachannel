@@ -132,7 +132,7 @@
     {
       "id": 9,
       "libro": "Montanelli, Indro - Historia De Los Griegos - libgen.li.pdf",
-      "estado": "pendiente",
+      "estado": "eliminada",
       "comentario": "",
       "imagen_url": "",
       "imagen_prompt": "",
@@ -324,5 +324,5 @@
     }
   ],
   "instancia": 2,
-  "ciclo": 15
+  "ciclo": 11
 }
