@@ -35,18 +35,19 @@
     {
       "id": 3,
       "libro": "Montanelli, Indro - Historia De Los Griegos - libgen.li.pdf",
-      "estado": "pendiente",
-      "comentario": "",
-      "imagen_url": "",
+      "estado": "publicada",
+      "comentario": "La imagen no va, tiene que mostrar unos bueyes",
+      "imagen_url": "https://res.cloudinary.com/dyecvp809/image/upload/v1777184933/historiachannel/historiachannel_idea_3.png",
       "imagen_prompt": "Digital painting, classical historical art style. Un carro tirado por mulos, decorado con motivos sencillos, en un camino rural de Grecia arcaica. Detrás, una persona de aspecto elegante observa el vehículo. Detalles: paisaje montañoso típico, vestimenta variada (traje de lujo para el aristócrata, ropa más simple para los trabajadores), material del carro (madera simple).. Featuring La valoración del transporte en la sociedad griega arcaica.. Epic cinematic composition, rich colors, museum quality. No text, no watermarks.",
       "horario_publicacion": "2026-04-26T10:35",
-      "instancia": 1,
+      "instancia": 2,
       "Hook inicial": "\"¿Sabías que un carro tirado por bueyes era el equivalente de un yate en la Antigua Grecia?\"",
-      "Personaje o hecho histórico": "La valoración del transporte en la sociedad griega arcaica, centrándose en la importancia cultural y social de los carros tirados por bueyes.",
-      "Por qué importa": "Un carro tirado por bueyes, tirado por bueyes, era un símbolo de riqueza y estatus social en la Antigua Grecia, ya que el transporte terrestre era rudimentario y los recursos limitados. Su posesión representaba una desigualdad social notable, destacando cómo incluso los medios de transporte más simples eran objeto de envidia y codicia en aquella época.",
-      "Imagen sugerida": "Un carro tirado por bueyes (no mulos o hombres), elaborado en madera, decorado con motivos sencillos, en un camino rural de Grecia arcaica. Detrás, una persona de aspecto elegante observa el vehículo. Detalles: paisaje montañoso típico, vestimenta variada (traje de lujo para el aristócrata, ropa más simple para los trabajadores), material del carro (madera simple, ruedas de barro).",
-      "Copy desarrollado": "En la Antigua Grecia, el transporte era esencial, pero un vehículo como el carro tirado por bueyes era un objeto de lujo comparable al yate actual. Un carro tirado por bueyes requería recursos valiosos y habilidad artística para su construcción, lo que lo convertía en un símbolo de estatus. La posesión de un carro tirado por bueyes no era algo común, despertaba envidia y representaba una desigualdad social notable en una época donde los medios de locomoción eran limitados. ¡Imagina la envidia que despertaba un simple carro tirado por bueyes en una sociedad donde los transportes eran tan primitivos!",
-      "Hashtags": "#GreciaAntigua #HistoriaAntigua #Antigüedad #CulturaClásica #HistoriaViral #Medieval #AntigüedadTransporte #BueyesGrecia"
+      "Personaje o hecho histórico": "La valoración del transporte en la sociedad griega arcaica.",
+      "Por qué importa": "Subraya el nivel de vida privilegiado que representaba el uso de un carro en aquella época, mostrando una desigualdad social notable. Un carro, tirado por mulos o hombres (como se menciona), era un medio de transporte tan valioso que su posesión se comparaba con la de un yate hoy en día. Esto ilustra cómo los recursos limitados y el transporte eran factores de estatus social crucial en una sociedad aún primitiva en muchos aspectos.",
+      "Imagen sugerida": "Un carro tirado por mulos, decorado con motivos sencillos, en un camino rural de Grecia arcaica. Detrás, una persona de aspecto elegante observa el vehículo. Detalles: paisaje montañoso típico, vestimenta variada (traje de lujo para el aristócrata, ropa más simple para los trabajadores), material del carro (madera simple).",
+      "Copy desarrollado": "En la Antigua Grecia, el transporte era esencial, pero un vehículo no era algo común. Un carro, incluso tirado por mulos o hombres, era un objeto de lujo comparable al yate actual. Su valor era enorme, reflejando la dificultad de fabricación y la escasez de recursos. La posesión de un carro no era solo un medio de transporte, sino un símbolo de riqueza y estatus social. ¡Imagina la envidia que despertaba un simple vehículo en una sociedad donde los medios de locomoción eran tan limitados!",
+      "Hashtags": "#GreciaAntigua #HistoriaAntigua #Antigüedad #CulturaClásica #HistoriaViral #Medieval",
+      "fecha_publicacion": "2026-04-26 10:37:04"
     },
     {
       "id": 4,
@@ -195,7 +196,7 @@
     {
       "id": 13,
       "libro": "Montanelli, Indro - Historia De Los Griegos - libgen.li.pdf",
-      "estado": "lista_para_publicar",
+      "estado": "publicada",
       "comentario": "",
       "imagen_url": "https://res.cloudinary.com/dyecvp809/image/upload/v1777210385/historiachannel/historiachannel_idea_13.png",
       "imagen_prompt": "Digital painting, classical historical art style. Un campamento dorio en el borde de Grecia, con soldados de estatura alta, cabello oscuro y ojos azules, bajo un cielo ateniense.. Featuring Los dorios como una raza nórdica.. Epic cinematic composition, rich colors, museum quality. No text, no watermarks.",
@@ -206,7 +207,8 @@
       "Por qué importa": "Destaca cómo las características físicas de un grupo étnico pudieron influir en su percepción como una fuerza invasora en Grecia antigua.",
       "Imagen sugerida": "Un campamento dorio en el borde de Grecia, con soldados de estatura alta, cabello oscuro y ojos azules, bajo un cielo ateniense.",
       "Copy desarrollado": "Los dorios, con sus rasgos físicos distintivos —altos, de cráneo redondo y ojos azules—, fueron percibidos como una raza diferente. Esta imagen física, junto con su fuerza bruta y su avanzada tecnología en armamento, los llevó a ser vistos como una amenaza externa. Su entrada en Grecia no fue solo una invasión militar, sino también cultural y étnica.",
-      "Hashtags": "#Dorios #Invasión #GreciaAntigua #Mitología #HistoriaDeGrecia"
+      "Hashtags": "#Dorios #Invasión #GreciaAntigua #Mitología #HistoriaDeGrecia",
+      "fecha_publicacion": "2026-04-26 10:37:36"
     },
     {
       "id": 14,
@@ -321,6 +323,6 @@
       "Hashtags": "#Acropoleis #HistoriaDeGrecia #CiudadAntigua #Civilización #Sobrevivencia #HistoriaDeTodo #Griegos #IdentidadTerritorial"
     }
   ],
-  "instancia": 1,
-  "ciclo": 5
+  "instancia": 2,
+  "ciclo": 6
 }
