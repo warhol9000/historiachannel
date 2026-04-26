@@ -1,12 +1,13 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="es" data-theme="dark">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Historia Channel — Panel de Ideas</title>
 <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700;900&family=DM+Mono:wght@300;400;500&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
 <style>
-  :root {
+  /* ── DARK MODE (default) ── */
+  :root, [data-theme="dark"] {
     --bg: #0d0d0d;
     --surface: #151515;
     --surface2: #1e1e1e;
@@ -20,9 +21,34 @@
     --text: #e8e0d0;
     --text-dim: #7a7060;
     --text-mid: #b0a890;
+    --header-bg: rgba(13,13,13,0.95);
+    --save-bg: rgba(13,13,13,0.95);
     --radius: 4px;
+    --shadow: 0 2px 12px rgba(0,0,0,0.4);
   }
+
+  /* ── LIGHT MODE ── */
+  [data-theme="light"] {
+    --bg: #f5f2ed;
+    --surface: #ffffff;
+    --surface2: #f0ece5;
+    --border: #d8d0c4;
+    --gold: #a07828;
+    --gold-dim: #c9a84c;
+    --red: #c0392b;
+    --green: #1e8449;
+    --blue: #1a6fa0;
+    --amber: #c96a10;
+    --text: #1a1410;
+    --text-dim: #8a7a68;
+    --text-mid: #4a3c2c;
+    --header-bg: rgba(245,242,237,0.95);
+    --save-bg: rgba(245,242,237,0.95);
+    --shadow: 0 2px 12px rgba(0,0,0,0.08);
+  }
+
   * { box-sizing: border-box; margin: 0; padding: 0; }
+
   body {
     background: var(--bg);
     color: var(--text);
@@ -30,15 +56,19 @@
     font-size: 15px;
     line-height: 1.6;
     min-height: 100vh;
+    transition: background 0.3s, color 0.3s;
   }
+
+  /* ── HEADER ── */
   header {
     position: sticky; top: 0; z-index: 100;
-    background: rgba(13,13,13,0.95);
+    background: var(--header-bg);
     backdrop-filter: blur(12px);
     border-bottom: 1px solid var(--border);
     padding: 0 40px;
-    display: flex; align-items: center; gap: 24px;
+    display: flex; align-items: center; gap: 16px;
     height: 64px;
+    box-shadow: var(--shadow);
   }
   .logo {
     font-family: 'Playfair Display', serif;
@@ -55,27 +85,46 @@
     letter-spacing: 0.5px; cursor: pointer;
     border-radius: var(--radius); transition: all 0.2s;
   }
-  .tab.active { background: var(--gold); color: #000; border-color: var(--gold); font-weight: 500; }
+  .tab.active { background: var(--gold); color: #fff; border-color: var(--gold); font-weight: 500; }
   .tab:hover:not(.active) { border-color: var(--gold-dim); color: var(--text); }
-  .status-bar { margin-left: 16px; display: flex; align-items: center; gap: 12px; }
+
+  /* ── THEME TOGGLE ── */
+  .theme-toggle {
+    width: 36px; height: 36px;
+    border: 1px solid var(--border);
+    background: var(--surface);
+    border-radius: var(--radius);
+    cursor: pointer;
+    display: flex; align-items: center; justify-content: center;
+    font-size: 16px;
+    transition: all 0.2s;
+    flex-shrink: 0;
+  }
+  .theme-toggle:hover { border-color: var(--gold); }
+
+  .status-bar { display: flex; align-items: center; gap: 8px; }
   .pill {
     display: flex; align-items: center; gap: 6px;
-    padding: 4px 12px; border-radius: 20px;
+    padding: 4px 10px; border-radius: 20px;
     font-family: 'DM Mono', monospace; font-size: 11px; letter-spacing: 0.5px;
   }
   .pill.green { background: rgba(39,174,96,0.15); color: var(--green); border: 1px solid rgba(39,174,96,0.3); }
   .pill.amber { background: rgba(230,126,34,0.15); color: var(--amber); border: 1px solid rgba(230,126,34,0.3); }
-  .pill.red   { background: rgba(192,57,43,0.15);  color: var(--red);   border: 1px solid rgba(192,57,43,0.3); }
   .pill.blue  { background: rgba(41,128,185,0.15); color: var(--blue);  border: 1px solid rgba(41,128,185,0.3); }
   .dot { width: 6px; height: 6px; border-radius: 50%; background: currentColor; }
-  main { position: relative; z-index: 1; max-width: 1100px; margin: 0 auto; padding: 40px 24px 80px; }
+
+  /* ── MAIN ── */
+  main { max-width: 1100px; margin: 0 auto; padding: 40px 24px 80px; }
   .instance-header { display: flex; align-items: baseline; gap: 16px; margin-bottom: 32px; }
   .instance-title { font-family: 'Playfair Display', serif; font-size: 32px; font-weight: 700; color: var(--text); }
   .instance-sub { font-family: 'DM Mono', monospace; font-size: 12px; color: var(--text-dim); letter-spacing: 1px; text-transform: uppercase; }
+
+  /* ── STATS ── */
   .stats-bar {
     display: flex; gap: 16px; margin-bottom: 32px;
     padding: 16px 20px; background: var(--surface);
     border: 1px solid var(--border); border-radius: var(--radius);
+    box-shadow: var(--shadow);
   }
   .stat { display: flex; flex-direction: column; gap: 2px; }
   .stat-val { font-family: 'Playfair Display', serif; font-size: 28px; font-weight: 700; line-height: 1; }
@@ -85,22 +134,20 @@
   .stat-val.red   { color: var(--red); }
   .stat-val.blue  { color: var(--blue); }
   .stats-bar .divider { width: 1px; background: var(--border); margin: 0 8px; }
-  .timer-bar {
-    display: flex; align-items: center; gap: 16px;
-    padding: 12px 20px; background: var(--surface);
-    border: 1px solid var(--gold-dim); border-radius: var(--radius); margin-bottom: 32px;
-  }
-  .timer-label { font-family: 'DM Mono', monospace; font-size: 12px; color: var(--gold); letter-spacing: 0.5px; }
-  .timer-count { font-family: 'Playfair Display', serif; font-size: 24px; color: var(--gold); font-weight: 700; min-width: 80px; }
-  .timer-progress { flex: 1; height: 3px; background: var(--border); border-radius: 2px; overflow: hidden; }
-  .timer-fill { height: 100%; background: var(--gold); transition: width 1s linear; }
+
+  /* ── TIMER ── */
+
+
+  /* ── CARDS ── */
   .card {
     background: var(--surface); border: 1px solid var(--border);
-    border-radius: var(--radius); margin-bottom: 20px;
-    overflow: hidden; transition: border-color 0.3s;
+    border-radius: var(--radius); margin-bottom: 16px;
+    overflow: hidden; transition: all 0.2s;
+    box-shadow: var(--shadow);
   }
+  .card:hover { border-color: var(--gold-dim); }
   .card.aprobada  { border-left: 3px solid var(--green); }
-  .card.eliminada { border-left: 3px solid var(--red); opacity: 0.4; }
+  .card.eliminada { border-left: 3px solid var(--red); opacity: 0.5; }
   .card.modificar { border-left: 3px solid var(--amber); }
   .card.pendiente { border-left: 3px solid var(--border); }
   .card.lista_para_publicar { border-left: 3px solid var(--blue); }
@@ -108,8 +155,8 @@
     display: flex; align-items: center; gap: 16px;
     padding: 16px 20px; cursor: pointer; user-select: none;
   }
-  .card-num { font-family: 'DM Mono', monospace; font-size: 11px; color: var(--text-dim); min-width: 48px; }
-  .card-hook { flex: 1; font-family: 'Playfair Display', serif; font-size: 17px; font-weight: 700; color: var(--text); line-height: 1.3; }
+  .card-num { font-family: 'DM Mono', monospace; font-size: 10px; color: var(--text-dim); min-width: 120px; }
+  .card-hook { flex: 1; font-family: 'Playfair Display', serif; font-size: 16px; font-weight: 700; color: var(--text); line-height: 1.3; }
   .card-book { font-family: 'DM Mono', monospace; font-size: 10px; color: var(--text-dim); white-space: nowrap; padding: 3px 8px; border: 1px solid var(--border); border-radius: 3px; }
   .badge { font-family: 'DM Mono', monospace; font-size: 10px; letter-spacing: 0.5px; padding: 3px 10px; border-radius: 3px; text-transform: uppercase; white-space: nowrap; }
   .badge.aprobada  { background: rgba(39,174,96,0.15);  color: var(--green); }
@@ -118,25 +165,47 @@
   .badge.pendiente { background: rgba(100,100,100,0.1);  color: var(--text-dim); }
   .badge.lista_para_publicar { background: rgba(41,128,185,0.15); color: var(--blue); }
   .chevron { color: var(--text-dim); font-size: 12px; transition: transform 0.2s; }
+  .quick-actions { display: flex; gap: 4px; }
+  .quick-btn {
+    width: 28px; height: 28px;
+    border-radius: var(--radius);
+    border: 1px solid var(--border);
+    background: transparent;
+    cursor: pointer;
+    font-size: 13px;
+    display: flex; align-items: center; justify-content: center;
+    transition: all 0.15s;
+    font-weight: bold;
+  }
+  .quick-approve { color: var(--green); border-color: var(--green); }
+  .quick-approve:hover { background: var(--green); color: #fff; }
+  .quick-delete  { color: var(--red); border-color: var(--red); }
+  .quick-delete:hover  { background: var(--red); color: #fff; }
   .card.expanded .chevron { transform: rotate(180deg); }
   .card-body { display: none; padding: 0 20px 20px; border-top: 1px solid var(--border); }
   .card.expanded .card-body { display: block; }
+
+  /* ── FIELDS ── */
   .fields-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; margin-top: 20px; }
   .field { display: flex; flex-direction: column; gap: 6px; }
   .field.full { grid-column: 1 / -1; }
   .field-label { font-family: 'DM Mono', monospace; font-size: 10px; color: var(--gold); text-transform: uppercase; letter-spacing: 1px; }
   .field-value { font-size: 14px; color: var(--text-mid); line-height: 1.6; white-space: pre-wrap; }
   .idea-image { width: 100%; max-width: 480px; border-radius: var(--radius); border: 1px solid var(--border); margin: 20px 0; display: block; }
+
+  /* ── ACTIONS ── */
   .actions { display: flex; gap: 10px; align-items: flex-start; margin-top: 20px; flex-wrap: wrap; }
   .btn { padding: 8px 20px; border: 1px solid; border-radius: var(--radius); font-family: 'DM Mono', monospace; font-size: 12px; letter-spacing: 0.5px; cursor: pointer; transition: all 0.15s; background: transparent; }
   .btn-approve { border-color: var(--green); color: var(--green); }
-  .btn-approve:hover, .btn-approve.active { background: var(--green); color: #000; }
+  .btn-approve:hover, .btn-approve.active { background: var(--green); color: #fff; }
   .btn-delete { border-color: var(--red); color: var(--red); }
   .btn-delete:hover, .btn-delete.active { background: var(--red); color: #fff; }
   .btn-modify { border-color: var(--amber); color: var(--amber); }
-  .btn-modify:hover, .btn-modify.active { background: var(--amber); color: #000; }
+  .btn-modify:hover, .btn-modify.active { background: var(--amber); color: #fff; }
   .btn-send { border-color: var(--blue); color: var(--blue); padding: 8px 28px; }
   .btn-send:hover { background: var(--blue); color: #fff; }
+
+  /* ── COMMENT BOX ── */
   .comment-box { display: none; flex-direction: column; gap: 10px; margin-top: 12px; width: 100%; }
   .comment-box.visible { display: flex; }
   .comment-box textarea {
@@ -145,13 +214,21 @@
     border-radius: var(--radius); color: var(--text);
     font-family: 'DM Sans', sans-serif; font-size: 13px;
     resize: vertical; min-height: 80px; line-height: 1.5;
+    transition: background 0.3s, color 0.3s;
   }
   .comment-box textarea:focus { outline: none; border-color: var(--amber); }
   .comment-box textarea::placeholder { color: var(--text-dim); }
   .horario-row { display: flex; gap: 10px; align-items: center; flex-wrap: wrap; }
   .horario-label { font-family: 'DM Mono', monospace; font-size: 11px; color: var(--text-dim); }
-  .horario-input { padding: 6px 12px; background: var(--surface2); border: 1px solid var(--border); border-radius: var(--radius); color: var(--text); font-family: 'DM Mono', monospace; font-size: 13px; }
+  .horario-input {
+    padding: 6px 12px; background: var(--surface2);
+    border: 1px solid var(--border); border-radius: var(--radius);
+    color: var(--text); font-family: 'DM Mono', monospace; font-size: 13px;
+    transition: background 0.3s, color 0.3s;
+  }
   .horario-input:focus { outline: none; border-color: var(--blue); }
+
+  /* ── LOADING / EMPTY ── */
   .loading { display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 20px; padding: 80px 20px; color: var(--text-dim); }
   .spinner { width: 40px; height: 40px; border: 2px solid var(--border); border-top-color: var(--gold); border-radius: 50%; animation: spin 0.8s linear infinite; }
   @keyframes spin { to { transform: rotate(360deg); } }
@@ -160,26 +237,29 @@
   .empty-icon { font-size: 48px; margin-bottom: 16px; }
   .empty h2 { font-family: 'Playfair Display', serif; font-size: 22px; color: var(--text-mid); margin-bottom: 8px; }
   .empty p { font-size: 13px; max-width: 400px; margin: 0 auto; line-height: 1.7; }
-  .server-offline {
-    background: rgba(192,57,43,0.1); border: 1px solid rgba(192,57,43,0.3);
-    border-radius: var(--radius); padding: 16px 20px; margin-bottom: 24px;
-    font-family: 'DM Mono', monospace; font-size: 12px; color: var(--red);
-  }
+
+  /* ── SERVER BANNER ── */
   .server-online {
     background: rgba(39,174,96,0.1); border: 1px solid rgba(39,174,96,0.3);
     border-radius: var(--radius); padding: 10px 20px; margin-bottom: 24px;
     font-family: 'DM Mono', monospace; font-size: 12px; color: var(--green);
     display: flex; align-items: center; gap: 8px;
   }
+
+  /* ── SAVE BAR ── */
   .save-bar {
     position: fixed; bottom: 0; left: 0; right: 0;
-    background: rgba(13,13,13,0.95); backdrop-filter: blur(12px);
+    background: var(--save-bg);
+    backdrop-filter: blur(12px);
     border-top: 1px solid var(--border);
-    padding: 16px 40px; display: flex; align-items: center; justify-content: space-between; z-index: 100;
+    padding: 14px 40px;
+    display: flex; align-items: center; justify-content: space-between;
+    z-index: 100;
+    transition: background 0.3s;
   }
   .save-info { font-family: 'DM Mono', monospace; font-size: 11px; color: var(--text-dim); }
   .btn-save {
-    padding: 10px 32px; background: var(--gold); color: #000; border: none;
+    padding: 10px 32px; background: var(--gold); color: #fff; border: none;
     border-radius: var(--radius); font-family: 'DM Mono', monospace; font-size: 13px;
     font-weight: 500; letter-spacing: 0.5px; cursor: pointer; transition: opacity 0.2s;
   }
@@ -187,12 +267,26 @@
   .btn-save:disabled { opacity: 0.4; cursor: not-allowed; }
   .save-status { font-family: 'DM Mono', monospace; font-size: 12px; color: var(--green); opacity: 0; transition: opacity 0.3s; }
   .save-status.visible { opacity: 1; }
+
+  /* ── ELIMINADAS SECTION ── */
+  .eliminadas-header {
+    cursor: pointer; padding: 12px 16px;
+    background: var(--surface); border: 1px solid var(--border);
+    border-radius: var(--radius);
+    font-family: 'DM Mono', monospace; font-size: 12px;
+    color: var(--text-dim); user-select: none;
+    display: flex; align-items: center; gap: 8px;
+    transition: all 0.2s;
+  }
+  .eliminadas-header:hover { border-color: var(--red); color: var(--red); }
+
   @media (max-width: 700px) {
-    header { padding: 0 16px; }
+    header { padding: 0 16px; gap: 8px; }
     main { padding: 24px 16px 80px; }
     .fields-grid { grid-template-columns: 1fr; }
     .tabs { gap: 4px; }
-    .tab { padding: 5px 12px; font-size: 11px; }
+    .tab { padding: 5px 10px; font-size: 11px; }
+    .status-bar { display: none; }
   }
 </style>
 </head>
@@ -205,6 +299,7 @@
     <button class="tab" id="tab2" onclick="switchTab(2)">INSTANCIA 2 — IMÁGENES</button>
   </div>
   <div class="status-bar" id="statusBar"></div>
+  <button class="theme-toggle" id="themeToggle" onclick="toggleTheme()" title="Cambiar tema">🌙</button>
 </header>
 
 <main id="mainContent">
@@ -224,10 +319,9 @@
 
 <script>
 // ─────────────────────────────────────────────
-// CONFIG — servidor local, sin tokens expuestos
+// CONFIG
 // ─────────────────────────────────────────────
-const SERVER = "http://localhost:8765";
-
+const SERVER = "https://ramble-paced-dormitory.ngrok-free.dev";
 // ─────────────────────────────────────────────
 // STATE
 // ─────────────────────────────────────────────
@@ -235,14 +329,30 @@ let data          = null;
 let instancia     = 1;
 let changed       = false;
 let serverOnline  = false;
-let timerInterval = null;
-let timerTotal    = 300;
-let timerLeft     = timerTotal;
+
+
+// ─────────────────────────────────────────────
+// THEME
+// ─────────────────────────────────────────────
+function toggleTheme() {
+  const html = document.documentElement;
+  const isDark = html.getAttribute("data-theme") === "dark";
+  html.setAttribute("data-theme", isDark ? "light" : "dark");
+  document.getElementById("themeToggle").textContent = isDark ? "🌙" : "☀️";
+  localStorage.setItem("theme", isDark ? "light" : "dark");
+}
+
+function initTheme() {
+  const saved = localStorage.getItem("theme") || "dark";
+  document.documentElement.setAttribute("data-theme", saved);
+  document.getElementById("themeToggle").textContent = saved === "dark" ? "🌙" : "☀️";
+}
 
 // ─────────────────────────────────────────────
 // INIT
 // ─────────────────────────────────────────────
 async function init() {
+  initTheme();
   await checkServer();
   if (serverOnline) await fetchData();
 }
@@ -251,9 +361,7 @@ async function checkServer() {
   try {
     const r = await fetch(`${SERVER}/ping`, { signal: AbortSignal.timeout(3000) });
     serverOnline = r.ok;
-  } catch {
-    serverOnline = false;
-  }
+  } catch { serverOnline = false; }
 }
 
 async function fetchData() {
@@ -266,9 +374,7 @@ async function fetchData() {
       instancia = data.instancia || 1;
     }
     renderAll();
-  } catch(e) {
-    renderOffline(e.message);
-  }
+  } catch(e) { renderOffline(e.message); }
 }
 
 // ─────────────────────────────────────────────
@@ -286,7 +392,7 @@ function renderAll() {
   if (!data || !data.ideas) { renderOffline("Sin datos del servidor"); return; }
   if (instancia === 1) renderInstancia1();
   else renderInstancia2();
-  startTimer();
+
 }
 
 function updateStatusBar() {
@@ -306,56 +412,53 @@ function renderOffline(msg) {
     <div class="empty">
       <div class="empty-icon">🔌</div>
       <h2>Servidor local no disponible</h2>
-      <p>El panel necesita que el servidor local esté corriendo en tu PC.<br><br>
-      Abrí una nueva ventana de PowerShell y ejecutá:<br><br>
+      <p>Abrí una nueva ventana de PowerShell y ejecutá:<br><br>
       <code style="background:var(--surface2);padding:8px 14px;border-radius:4px;font-family:'DM Mono',monospace;font-size:13px;">python servidor_local.py</code><br><br>
       Luego recargá esta página.<br><small style="color:var(--text-dim)">${msg}</small></p>
     </div>`;
 }
 
 function serverBanner() {
-  return `<div class="server-online"><span class="dot" style="background:var(--green)"></span>Servidor local conectado — los cambios se guardan en tu PC</div>`;
+  return `<div class="server-online"><span class="dot"></span>Servidor local conectado</div>`;
 }
 
 function renderInstancia1() {
   const ideas = (data.ideas || []).filter(i => i.instancia === 1);
-  const aprobadas = ideas.filter(i => i.estado === "aprobada").length;
-  const eliminadas = ideas.filter(i => i.estado === "eliminada").length;
-  const modificar  = ideas.filter(i => i.estado === "modificar").length;
-  const pendientes = ideas.filter(i => i.estado === "pendiente").length;
+  const activas   = ideas.filter(i => i.estado !== "eliminada");
+  const eliminadas = ideas.filter(i => i.estado === "eliminada");
+
+  const aprobadas = activas.filter(i => i.estado === "aprobada").length;
+  const modificar  = activas.filter(i => i.estado === "modificar").length;
+  const pendientes = activas.filter(i => i.estado === "pendiente").length;
 
   let html = serverBanner() + `
     <div class="instance-header">
       <div class="instance-title">Revisión de Ideas</div>
-      <div class="instance-sub">INSTANCIA 01 — ${ideas.length} ideas</div>
+      <div class="instance-sub">INSTANCIA 01 — ${activas.length} ideas</div>
     </div>
     <div class="stats-bar">
       <div class="stat"><div class="stat-val green">${aprobadas}</div><div class="stat-label">Aprobadas</div></div>
       <div class="divider"></div>
       <div class="stat"><div class="stat-val amber">${modificar}</div><div class="stat-label">A modificar</div></div>
       <div class="divider"></div>
-      <div class="stat"><div class="stat-val red">${eliminadas}</div><div class="stat-label">Eliminadas</div></div>
+      <div class="stat"><div class="stat-val red">${eliminadas.length}</div><div class="stat-label">Eliminadas</div></div>
       <div class="divider"></div>
       <div class="stat"><div class="stat-val">${pendientes}</div><div class="stat-label">Pendientes</div></div>
     </div>
-    ${renderTimer()}`;
+`;
 
-  const ideas_activas   = ideas.filter(i => i.estado !== "eliminada");
-  const ideas_eliminadas = ideas.filter(i => i.estado === "eliminada");
-
-  if (!ideas_activas.length && !ideas_eliminadas.length) {
+  if (!activas.length && !eliminadas.length) {
     html += `<div class="empty"><div class="empty-icon">📭</div><h2>Sin ideas en Instancia 1</h2><p>Las ideas aparecerán cuando el pipeline las cargue.</p></div>`;
   } else {
-    ideas_activas.forEach(idea => { html += renderCard1(idea); });
-    if (ideas_eliminadas.length) {
+    activas.forEach(idea => { html += renderCard1(idea); });
+    if (eliminadas.length) {
       html += `
         <div style="margin-top:32px;">
-          <div onclick="this.nextElementSibling.style.display=this.nextElementSibling.style.display==='none'?'block':'none'"
-               style="cursor:pointer;padding:12px 16px;background:var(--surface);border:1px solid var(--border);border-radius:4px;font-family:'DM Mono',monospace;font-size:12px;color:var(--text-dim);user-select:none;">
-            ▶ ELIMINADAS (${ideas_eliminadas.length})
+          <div class="eliminadas-header" onclick="this.nextElementSibling.style.display=this.nextElementSibling.style.display==='none'?'block':'none'">
+            <span>▶</span> ELIMINADAS (${eliminadas.length})
           </div>
-          <div style="display:none">
-            ${ideas_eliminadas.map(idea => renderCard1(idea)).join("")}
+          <div style="display:none;margin-top:8px;">
+            ${eliminadas.map(idea => renderCard1(idea)).join("")}
           </div>
         </div>`;
     }
@@ -365,14 +468,16 @@ function renderInstancia1() {
 
 function renderInstancia2() {
   const ideas = (data.ideas || []).filter(i => i.instancia === 2);
-  const listas    = ideas.filter(i => i.estado === "lista_para_publicar").length;
-  const modificar = ideas.filter(i => i.estado === "modificar").length;
-  const pendientes = ideas.filter(i => i.estado === "pendiente").length;
+  const activas    = ideas.filter(i => i.estado !== "eliminada");
+  const eliminadas = ideas.filter(i => i.estado === "eliminada");
+  const listas    = activas.filter(i => i.estado === "lista_para_publicar").length;
+  const modificar = activas.filter(i => i.estado === "modificar").length;
+  const pendientes = activas.filter(i => i.estado === "pendiente").length;
 
   let html = serverBanner() + `
     <div class="instance-header">
       <div class="instance-title">Revisión de Imagen + Copy</div>
-      <div class="instance-sub">INSTANCIA 02 — ${ideas.length} ideas con imagen</div>
+      <div class="instance-sub">INSTANCIA 02 — ${activas.length} ideas</div>
     </div>
     <div class="stats-bar">
       <div class="stat"><div class="stat-val blue">${listas}</div><div class="stat-label">Listas</div></div>
@@ -381,23 +486,28 @@ function renderInstancia2() {
       <div class="divider"></div>
       <div class="stat"><div class="stat-val">${pendientes}</div><div class="stat-label">Pendientes</div></div>
     </div>
-    ${renderTimer()}`;
+`;
 
-  if (!ideas.length) {
-    html += `<div class="empty"><div class="empty-icon">🖼</div><h2>Sin imágenes aún</h2><p>Las ideas aprobadas en Instancia 1 pasarán aquí una vez generadas sus imágenes con DALL-E.</p></div>`;
+  if (!activas.length && !eliminadas.length) {
+    html += `<div class="empty"><div class="empty-icon">🖼</div><h2>Sin imágenes aún</h2><p>Las ideas aprobadas en Instancia 1 pasarán aquí una vez generadas sus imágenes.</p></div>`;
   } else {
-    ideas.forEach(idea => { html += renderCard2(idea); });
+    activas.forEach(idea => { html += renderCard2(idea); });
+    if (eliminadas.length) {
+      html += `
+        <div style="margin-top:32px;">
+          <div class="eliminadas-header" onclick="this.nextElementSibling.style.display=this.nextElementSibling.style.display==='none'?'block':'none'">
+            <span>▶</span> DESCARTADAS (${eliminadas.length})
+          </div>
+          <div style="display:none;margin-top:8px;">
+            ${eliminadas.map(idea => renderCard2(idea)).join("")}
+          </div>
+        </div>`;
+    }
   }
   document.getElementById("mainContent").innerHTML = html;
 }
 
-function renderTimer() {
-  return `<div class="timer-bar">
-    <div class="timer-label">⏱ PRÓXIMA REVISIÓN EN</div>
-    <div class="timer-count" id="timerDisplay">--:--</div>
-    <div class="timer-progress"><div class="timer-fill" id="timerFill" style="width:100%"></div></div>
-  </div>`;
-}
+
 
 function renderCard1(idea) {
   const estado = idea.estado || "pendiente";
@@ -405,10 +515,14 @@ function renderCard1(idea) {
   return `
     <div class="card ${estado}" id="card_${idea.id}" onclick="toggleCard('card_${idea.id}', event)">
       <div class="card-header">
-        <div class="card-num">${escHtml(idea.display || "IDEA #" + idea.id)}</div>
+        <div class="card-num">${escHtml(idea.display || String(idea.id).substring(0,8))}</div>
         <div class="card-hook">${escHtml(idea["Hook inicial"] || "(sin hook)")}</div>
-        <div class="card-book">${escHtml((idea.libro||"").substring(0,25))}</div>
+        <div class="card-book">${escHtml(idea.libro||"")}</div>
         <div class="badge ${estado}">${labelEstado(estado)}</div>
+        <div class="quick-actions" onclick="event.stopPropagation()">
+          <button class="quick-btn quick-approve" title="Aprobar" onclick="setEstado('${idea.id}','aprobada')">✓</button>
+          <button class="quick-btn quick-delete" title="Eliminar" onclick="setEstado('${idea.id}','eliminada')">✕</button>
+        </div>
         <div class="chevron">▼</div>
       </div>
       <div class="card-body">
@@ -420,13 +534,13 @@ function renderCard1(idea) {
           <div class="field full"><div class="field-label">Copy desarrollado</div><div class="field-value">${escHtml(idea["Copy desarrollado"]||"")}</div></div>
         </div>
         <div class="actions" onclick="event.stopPropagation()">
-          <button class="btn btn-approve ${estado==='aprobada'?'active':''}" onclick="setEstado(${idea.id},'aprobada')">✓ APROBAR</button>
-          <button class="btn btn-delete ${estado==='eliminada'?'active':''}" onclick="setEstado(${idea.id},'eliminada')">✕ ELIMINAR</button>
-          <button class="btn btn-modify ${estado==='modificar'?'active':''}" onclick="toggleComentario(${idea.id})">✎ MODIFICAR</button>
+          <button class="btn btn-approve ${estado==='aprobada'?'active':''}" onclick="setEstado('${idea.id}','aprobada')">✓ APROBAR</button>
+          <button class="btn btn-delete ${estado==='eliminada'?'active':''}" onclick="setEstado('${idea.id}','eliminada')">✕ ELIMINAR</button>
+          <button class="btn btn-modify ${estado==='modificar'?'active':''}" onclick="toggleComentario('${idea.id}')">✎ MODIFICAR</button>
         </div>
         <div class="comment-box ${estado==='modificar'||comentario?'visible':''}" id="comentario_${idea.id}" onclick="event.stopPropagation()">
           <textarea id="txt_${idea.id}" placeholder="Describí qué cambiar: personaje, enfoque, tono, imagen..."
-            onchange="setComentario(${idea.id}, this.value)">${escHtml(comentario)}</textarea>
+            onchange="setComentario('${idea.id}', this.value)">${escHtml(comentario)}</textarea>
         </div>
       </div>
     </div>`;
@@ -440,10 +554,14 @@ function renderCard2(idea) {
   return `
     <div class="card ${estado}" id="card_${idea.id}" onclick="toggleCard('card_${idea.id}', event)">
       <div class="card-header">
-        <div class="card-num">${escHtml(idea.display || "IDEA #" + idea.id)}</div>
+        <div class="card-num">${escHtml(idea.display || String(idea.id).substring(0,8))}</div>
         <div class="card-hook">${escHtml(idea["Hook inicial"]||"(sin hook)")}</div>
-        <div class="card-book">${escHtml((idea.libro||"").substring(0,25))}</div>
+        <div class="card-book">${escHtml(idea.libro||"")}</div>
         <div class="badge ${estado}">${labelEstado(estado)}</div>
+        <div class="quick-actions" onclick="event.stopPropagation()">
+          <button class="quick-btn quick-approve" title="Publicar" onclick="setEstado('${idea.id}','lista_para_publicar')">✓</button>
+          <button class="quick-btn quick-delete" title="Descartar" onclick="setEstado('${idea.id}','eliminada')">✕</button>
+        </div>
         <div class="chevron">▼</div>
       </div>
       <div class="card-body">
@@ -454,19 +572,19 @@ function renderCard2(idea) {
           <div class="field"><div class="field-label">Prompt de imagen</div><div class="field-value">${escHtml(idea.imagen_prompt||"")}</div></div>
         </div>
         <div class="actions" onclick="event.stopPropagation()">
-          <button class="btn btn-approve ${estado==='lista_para_publicar'?'active':''}" onclick="setEstado(${idea.id},'lista_para_publicar')">✓ PUBLICAR</button>
-          <button class="btn btn-delete ${estado==='eliminada'?'active':''}" onclick="setEstado(${idea.id},'eliminada')">✕ DESCARTAR</button>
-          <button class="btn btn-modify ${estado==='modificar'?'active':''}" onclick="toggleComentario(${idea.id})">✎ MODIFICAR</button>
+          <button class="btn btn-approve ${estado==='lista_para_publicar'?'active':''}" onclick="setEstado('${idea.id}','lista_para_publicar')">✓ PUBLICAR</button>
+          <button class="btn btn-delete ${estado==='eliminada'?'active':''}" onclick="setEstado('${idea.id}','eliminada')">✕ DESCARTAR</button>
+          <button class="btn btn-modify ${estado==='modificar'?'active':''}" onclick="toggleComentario('${idea.id}')">✎ MODIFICAR</button>
         </div>
         <div class="comment-box ${estado==='modificar'||comentario?'visible':''}" id="comentario_${idea.id}" onclick="event.stopPropagation()">
           <div class="horario-row">
             <span class="horario-label">📅 Horario:</span>
             <input type="datetime-local" class="horario-input" id="horario_${idea.id}" value="${horario}"
-              onchange="setHorario(${idea.id}, this.value)">
-            <button class="btn btn-send" onclick="setEstado(${idea.id},'lista_para_publicar');guardarCambios()">ENVIAR ↗</button>
+              onchange="setHorario('${idea.id}', this.value)">
+            <button class="btn btn-send" onclick="setEstado('${idea.id}','lista_para_publicar');guardarCambios()">ENVIAR ↗</button>
           </div>
           <textarea id="txt_${idea.id}" placeholder="Comentario para modificar idea o imagen..."
-            onchange="setComentario(${idea.id}, this.value)">${escHtml(comentario)}</textarea>
+            onchange="setComentario('${idea.id}', this.value)">${escHtml(comentario)}</textarea>
         </div>
       </div>
     </div>`;
@@ -523,32 +641,10 @@ function markChanged() {
   document.getElementById("saveInfo").textContent = `${pend} idea(s) pendientes — guardá para que el pipeline las procese`;
 }
 
-// ─────────────────────────────────────────────
-// TIMER
-// ─────────────────────────────────────────────
-function startTimer() {
-  if (timerInterval) clearInterval(timerInterval);
-  timerLeft = timerTotal;
-  updateTimerDisplay();
-  timerInterval = setInterval(() => {
-    timerLeft = Math.max(0, timerLeft - 1);
-    updateTimerDisplay();
-    if (timerLeft === 0) { clearInterval(timerInterval); fetchData(); }
-  }, 1000);
-}
 
-function updateTimerDisplay() {
-  const el = document.getElementById("timerDisplay");
-  const fill = document.getElementById("timerFill");
-  if (!el) return;
-  const m = Math.floor(timerLeft / 60);
-  const s = timerLeft % 60;
-  el.textContent = `${m}:${s.toString().padStart(2,"0")}`;
-  if (fill) fill.style.width = `${(timerLeft/timerTotal)*100}%`;
-}
 
 // ─────────────────────────────────────────────
-// GUARDAR — ahora va al servidor local, no a GitHub
+// GUARDAR
 // ─────────────────────────────────────────────
 async function guardarCambios() {
   const btn = document.getElementById("btnSave");
@@ -581,7 +677,14 @@ function escHtml(str) {
   return String(str).replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/>/g,"&gt;").replace(/"/g,"&quot;");
 }
 function labelEstado(estado) {
-  return { pendiente:"PENDIENTE", aprobada:"✓ APROBADA", eliminada:"✕ ELIMINADA", modificar:"✎ MODIFICAR", lista_para_publicar:"🚀 LISTA" }[estado] || estado.toUpperCase();
+  return {
+    pendiente: "PENDIENTE",
+    aprobada: "✓ APROBADA",
+    eliminada: "✕ ELIMINADA",
+    modificar: "✎ MODIFICAR",
+    lista_para_publicar: "🚀 LISTA",
+    publicada: "✅ PUBLICADA"
+  }[estado] || estado.toUpperCase();
 }
 
 init();
