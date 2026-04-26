@@ -9,12 +9,12 @@
       "imagen_prompt": "",
       "horario_publicacion": "",
       "instancia": 1,
-      "Hook inicial": "\"¿Sabías que un simple pasillo podría cambiar el mundo?\"",
-      "Personaje o hecho histórico": "El Palacio de Cnosos y el Laberinto descubierto por Evans.",
-      "Por qué importa": "Este hallazgo, inicialmente ridiculizado, confirmó la existencia de la gran civilización micénica de Creta, que Homero había descrito siglos antes. No fue solo un palacio, sino el centro neurálgico de una cultura avanzada, demostrando la sofisticación técnica y artística de los primeros griegos, que precedió a la civilización micénica continental y ateniense. Es fascinante cómo una aparente \"tontería\" de los anticuarios llevó a un arqueólogo a revelar algo fundamental sobre el origen mismo de la civilización griega.",
-      "Imagen sugerida": "Imagen aérea impresionante del Palacio de Cnosos (Laberinto) reconstruido o una foto moderna del sitio arqueológico, con un arqueólogo señalando una grieta en el piso que representa la entrada oculta o la complejidad del laberinto.",
-      "Copy desarrollado": "En la Grecia del siglo XX, un arqueólogo inglés llamado Evans se toma en serio una \"tontería\" de los anticuarios: unos amuletos femeninos con jeroglíficos de Creta. Compra tierra, contrata excavaciones y topa con algo inesperado: el famoso Laberinto de Minos, el Palacio de Cnosos. Este lugar, más grande que el Partenón, confirmaba que Homero no había mentido: la primera gran civilización griega nació en Creta, dos mil años antes de Atenas. Fue un descubrimiento que demostró la sofisticación perdida de los micénicos, un \"pasillo\" que conectaba a los griegos con su propia historia olvidada. Hoy nos fascina porque muestra cómo la imaginación de la antigüedad y la persistencia de los arqueólogos pueden converger para revelar capas ocultas de nuestra herencia.",
-      "Hashtags": "#HistoriaDeLosGriegos #LaberintoDeCnosos #Arqueología #Micénicos #Homero #Descubrimientos #CivilizaciónGriega #HistoriaViral"
+      "Hook inicial": "¿Sabías que un padre le dio alas de cera a su hijo para volar, pero el chico olvidó la advertencia y se derritió?",
+      "Personaje o hecho histórico": "Ícaro, hijo de Dédalo.",
+      "Por qué importa": "Es un dato fascinante sobre la leyenda griega que demuestra cómo incluso los héroes tienen límites. Muestra el peligro de la ambición y el olvido de los consejos, algo universal hoy en día.",
+      "Imagen sugerida": "Ícaro con las alas de cera empezando a derretirse en el cielo, con un atardecer dorado en Creta en el fondo.",
+      "Copy desarrollado": "En el siglo V a.C, Dédalo, un ingeniero brillante, se vio obligado a crear alas de cera para escapar de Creta junto a su hijo Ícaro. Ambos lograron volar, ¡hasta que Ícaro olvidó la advertencia de su padre: no volar demasiado cerca del sol! El calor derretió sus alas y el joven se precipitó al mar. La lección es clara: incluso la ingeniosidad tiene sus límites, y los consejos de los padres merecen ser escuchados. Hoy, en redes, esta historia vuela por los riesgos de dejarse llevar sin moderación.",
+      "Hashtags": "#HistoriaDeLosGriegos #MitologiaGriegas #AlasDeCera #AdvertenciaPaterna #VuelaConCuidado #Dedalo #Creta #leyenda"
     },
     {
       "id": 2,
@@ -25,12 +25,12 @@
       "imagen_prompt": "",
       "horario_publicacion": "",
       "instancia": 1,
-      "Hook inicial": "\"Un rey tan listo se atrapó en lo más simple: su propia codicia.\"",
-      "Personaje o hecho histórico": "La trampa de Minos al Minotauro (y Dédalo).",
-      "Por qué importa": "La historia de Minos es un ejemplo perfecto de cómo la codicia y la cobardía pueden convertirse en una trampa mortal, incluso para los más poderosos. Minos, para no admitir su error y proteger su imagen, eligió encarcelar al Minotauro en el mismo laberinto que él mismo diseñó. Es una metáfora universal sobre el orgullo, la negación de la realidad y cómo las grandes potencias pueden caer en errores básicos. Además, la historia de Dédalo, el constructor que diseñó la salida pero no la usó para sí mismo, añade otra capa de contradicción humana.",
-      "Imagen sugerida": "Imagen dramática: Minos, rey ataviado con lujos, encerrado en un pasillo oscuro y retorcido del Laberinto (simbólico), con el Minotauro (o una estatua) en el fondo. O una imagen de Dédalo mirando el techo del mismo laberinto que construyó, apretando el ovillo de hilo.",
-      "Copy desarrollado": "Minos, el rey griego más poderoso, cometió un error básico y lo agravó con su orgullo. Ofendido por el dios, se vio obligado a encubrir su error encerrando al Minotauro en el propio Laberinto que había diseñado para derrotarlo. En lugar de admitir su fraude inicial, usó su creatividad para atraparse a él mismo. Esta es la lección: la codicia y el miedo a la verdad pueden convertirte en el prisionero de tus propias ideas. Y peor aún, Dédalo, el ingeniero que había creado la solución, no fue capaz de usarla para escapar. La historia nos habla de cómo incluso los más creativos pueden ser derrotados por la contradicción humana y la búsqueda del poder.",
-      "Hashtags": "#HistoriaDeLosGriegos #Minos #Laberinto #Dédalo #Ícaro #Mito #Codicia #HistoriaViral #Contradicciones"
+      "Hook inicial": "\"El ingenio no salva de la arrogancia\" - Dédalo en el exilio.",
+      "Personaje o hecho histórico": "Dédalo, inventor y padre de Ícaro.",
+      "Por qué importa": "Esta frase resume una contradicción humana clave: Dédalo, famoso por su ingenio, terminó en el exilio por un acto de arrogancia (matar a su sobrino). Muestra que la inteligencia no garantiza sabiduría.",
+      "Imagen sugerida": "Dédalo sentado en un acantilado de Sicilia, mirando el mar con tristeza, vestido con ropas de viajero, en una foto con tonos oscuros y dramáticos.",
+      "Copy desarrollado": "Dédalo, el ingeniero que construyó el Laberinto y las alas de cera, no fue un héroe sin manchas. Proveniente de Atenas, tuvo que huir tras cometer un crimen por celos. Su ingenio lo llevó a crear el escape de Creta, pero su arrogancia lo condenó al exilio. Aunque salvo, su vida fue una sombra de su potencial. La lección: el genio tiene límites morales, y la historia no es solo triunfo sino también errores humanos. Un dato que nos recuerda que todos somos capaces de hacer cosas que nos perjudican.",
+      "Hashtags": "#Dedalo #HistoriaDeLosGriegos #ArroganciaHumana #ConsecuenciasDeLosActos #Exilio #Mitologia #HistoriaViral #Griegos"
     },
     {
       "id": 3,
@@ -41,12 +41,12 @@
       "imagen_prompt": "",
       "horario_publicacion": "",
       "instancia": 1,
-      "Hook inicial": "\"¿Sabías que Julio César, el dictador de Roma, solía peinarse el bigote con un peine dorado porque se avergonzaba de su calvicie?\"",
-      "Personaje o hecho histórico": "Julio César.",
-      "Por qué importa": "Muestra la contradicción entre la grandeza de un líder y sus inseguridades humanas. Demuestra que incluso los héroes más grandes tenían problemas y rasgos de personalidad que hoy encontraríamos graciosos o ridículos.",
-      "Imagen sugerida": "Julio César en una escena de espejo roto en un baño, con su peine dorado en la mano, mientras un rizo se ve afectado por el espejo roto, con un halo de vapor y agua.",
-      "Copy desarrollado": "¿Imagina a Julio César, el conquistador de Gaula, sentado en su baño, peinándose el bigote con un peine dorado? Sí, porque se avergonzaba de su calvicie. Este dato refleja una verdad humana que tanto los romanos como nosotros conocemos: incluso los líderes más grandes tenían inseguridades. Montanelli nos recuerda que la grandeza no está en ser perfectos, sino en aceptar nuestras limitaciones. La ironía es que César, que tanto temía la apariencia física, se convirtió en el símbolo de Roma. Esta anécdota nos habla de la complejidad de la historia: los héroes no son diferentes a nosotros, solo tuvieron más impacto en su época.",
-      "Hashtags": "#JulioCesare #HistoriaDeRoma #CesareCalvo #LiderazgoHumano #HistoriaViral #PersonajesHistoricos #Calvicie #Montanelli"
+      "Hook inicial": "¿Sabías que César, el emperador legendario, era un mujeriego obsesivo y se peinaba rizado para ocultar su calvicie?",
+      "Personaje o hecho histórico": "Julio César",
+      "Por qué importa": "Muestra la contradicción humana entre el líder legendario y sus defectos personales, demostrando que incluso los héroes tenían problemas humanos y luchas cotidianas, lo que los hace más cercanos y reales.",
+      "Imagen sugerida": "Julio César en una habitación privada, frente a un espejo, con el rostro y el pecho calvo, peinando su cabello rizado con mano firme pero temblorosa, mientras en el fondo se ve un atisbo de armadura y pergaminos.",
+      "Copy desarrollado": "En el corazón del Imperio, Julio César no era solo estrategia y poder. A sus 50 años, su calvicie era un secreto incómodo. Para ocultarla, se peinaba rizado, dedicando largos minutos a su reflejo en el espejo. Era el mismo líder que derrotó a miles de enemigos y dictó leyes, pero también un hombre que luchaba contra su imagen en un espejo. Esta obsesión por la apariencia, tan humana como su victoria en las legiones, nos recuerda que los héroes no son diferentes a nosotros, sino como nosotros. Su verdadera grandeza no fue vencer en batalla, sino aceptar su fragilidad.",
+      "Hashtags": "#JulioCesar #HistoriaDeRoma #Cesares #CalvicieAntigua #HistoriaViral #PersonajesHistoricos #Cesareo #HistoriaImpactante"
     },
     {
       "id": 4,
@@ -57,12 +57,12 @@
       "imagen_prompt": "",
       "horario_publicacion": "",
       "instancia": 1,
-      "Hook inicial": "\"¿Sabías que los romanos, famosos por conquistar el mundo, no tenían baños hasta el siglo I a.C.?\"",
-      "Personaje o hecho histórico": "La ciudad de Roma en la época arcaica (siglo VI a.C.)",
-      "Por qué importa": "Describe una realidad cotidiana inimaginable para nosotros: la falta de sistemas de saneamiento básico, obligando a los ciudadanos a hacer sus necesidades al aire libre. Esto revela cómo una civilización que luego construiría sistemas tan avanzados como el Foro Romanum o el Coliseo vivió en condiciones básicas. El contraste es fascinante y sorprendente.",
-      "Imagen sugerida": "Imagen de estilo antiguo (esqueltos, estilo Greco-romano) mostrando a un grupo de ciudadanos romanos abajo de un edificio público, realizando sus necesidades en la calle, mientras arriba se levanta el esqueleto de un templo o teatro en ruinas.",
-      "Copy desarrollado": "¡Aturdimientos! Imagínate a los mismos ciudadanos que luego construirían el Coliseo o el Foro Romanum haciendo sus necesidades puertas afuera y dejándolas allí, sobre las aceras. Eran tan primitivos como cualquier tribu, pero ¿te imaginas? No había retretes ni cloacas en Roma, la ciudad sagrada. Todo el mundo, desde el rey Anco Marcio hasta los ciudadanos más humildes, se veía obligado a arrodillarse fuera de las murallas de la ciudad y defecar o orinar en la calle, dejando el \"provecho\" para los demás. Este dato, que forma parte de la vida diaria de los primeros romanos, es fascinante porque muestra lo lejos que tuvo que evolucionar esta civilización para llegar a ser el imperio más grande del mundo clásico. ¡La higiene no era su fuerte en los albores de la ciudad!",
-      "Hashtags": "#HistoriaDeRoma #Antigüedad #BañosAntiguos #RomaAntigua #Arqueología #CuriosidadesHistóricas #ViajeAlPasado #SaneamientoAntiguo"
+      "Hook inicial": "\"La diarrea de Augusto\": El emperador más poderoso de Roma casi pierde su primera batalla por un ataque de intestino.",
+      "Personaje o hecho histórico": "Augusto (Imperio Romano)",
+      "Por qué importa": "Destaca la fragilidad de un líder supremo, mostrando que incluso los más grandes están sujetos a errores mínimos y desgracias inesperadas. Esta contradicción humana nos recuerda que el liderazgo no es inmortal, sino que depende de factores imprevistos.",
+      "Imagen sugerida": "Augusto, en su uniforme militar de cuero y brocado, en una tienda de campaña desordenada, apoyado en un cabecero con un ataque repentino de diarrea, mientras en el fondo se ve la devastación de una batalla campal y un mapa desdibujado.",
+      "Copy desarrollado": "Augusto, el fundador del Imperio romano, no siempre gobernaba desde la calma. En su primera batalla, liderando tropas contra Casio y Bruto, sufrir un ataque de diarrea que lo dejó incapacitado temporalmente. Mientras intentaba detener el flujo, su ejército sufrió derrotas significativas. Este \"error mínimo\", que casi truncó su legendaria carrera, nos habla de la humanidad de los líderes más grandes. La historia de Roma no es de héroes invencibles, sino de hombres como nosotros, capaces de derrotar a enemigos pero también vencidos por sus males internos más humildes.",
+      "Hashtags": "#AugustoImperador #HistoriaAntigua #LiderazgoHistorico #ErroresImperiales #HistoriaHumana #RomaAntigua #ImperioRomano #HistoriaViral"
     }
   ],
   "instancia": 1,
