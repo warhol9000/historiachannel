@@ -22,7 +22,7 @@
       "estado": "aprobada",
       "comentario": "",
       "imagen_url": "",
-      "imagen_prompt": "",
+      "imagen_prompt": "Digital painting, classical historical art style. Una escena en una fiesta nupcial en Grecia arcaica. Una joven pareja, el novio con ropas nuevas pero sencillas, y el padre sostiene un grano de trigo o un ganado pequeño como símbolo del pago. Detalles: vestimenta típica, ambiente festivo pero con un toque de solemnidad, presencia de familiares, música con flauta.. Featuring La estructura social y económica del matrimonio en la Grecia arcaica.. Epic cinematic composition, rich colors, museum quality. No text, no watermarks.",
       "horario_publicacion": "",
       "instancia": 1,
       "Hook inicial": "\"¿Sabías que en Grecia los matrimonios eran un negocio y las novias costaban tantos animales como belleza?\"",
@@ -35,12 +35,12 @@
     {
       "id": 3,
       "libro": "Montanelli, Indro - Historia De Los Griegos - libgen.li.pdf",
-      "estado": "aprobada",
+      "estado": "pendiente",
       "comentario": "",
-      "imagen_url": "",
-      "imagen_prompt": "",
+      "imagen_url": "https://res.cloudinary.com/dyecvp809/image/upload/v1777184933/historiachannel/historiachannel_idea_3.png",
+      "imagen_prompt": "Digital painting, classical historical art style. Un carro tirado por mulos, decorado con motivos sencillos, en un camino rural de Grecia arcaica. Detrás, una persona de aspecto elegante observa el vehículo. Detalles: paisaje montañoso típico, vestimenta variada (traje de lujo para el aristócrata, ropa más simple para los trabajadores), material del carro (madera simple).. Featuring La valoración del transporte en la sociedad griega arcaica.. Epic cinematic composition, rich colors, museum quality. No text, no watermarks.",
       "horario_publicacion": "",
-      "instancia": 1,
+      "instancia": 2,
       "Hook inicial": "\"¿Sabías que un carro tirado por bueyes era el equivalente de un yate en la Antigua Grecia?\"",
       "Personaje o hecho histórico": "La valoración del transporte en la sociedad griega arcaica.",
       "Por qué importa": "Subraya el nivel de vida privilegiado que representaba el uso de un carro en aquella época, mostrando una desigualdad social notable. Un carro, tirado por mulos o hombres (como se menciona), era un medio de transporte tan valioso que su posesión se comparaba con la de un yate hoy en día. Esto ilustra cómo los recursos limitados y el transporte eran factores de estatus social crucial en una sociedad aún primitiva en muchos aspectos.",
@@ -195,12 +195,12 @@
     {
       "id": 13,
       "libro": "Montanelli, Indro - Historia De Los Griegos - libgen.li.pdf",
-      "estado": "aprobada",
+      "estado": "pendiente",
       "comentario": "",
-      "imagen_url": "",
-      "imagen_prompt": "",
+      "imagen_url": "https://res.cloudinary.com/dyecvp809/image/upload/v1777210385/historiachannel/historiachannel_idea_13.png",
+      "imagen_prompt": "Digital painting, classical historical art style. Un campamento dorio en el borde de Grecia, con soldados de estatura alta, cabello oscuro y ojos azules, bajo un cielo ateniense.. Featuring Los dorios como una raza nórdica.. Epic cinematic composition, rich colors, museum quality. No text, no watermarks.",
       "horario_publicacion": "",
-      "instancia": 1,
+      "instancia": 2,
       "Hook inicial": "\"Los ojos azules de los invasores\": ¿Cómo se percibió la llegada de los dorios?",
       "Personaje o hecho histórico": "Los dorios como una raza nórdica.",
       "Por qué importa": "Destaca cómo las características físicas de un grupo étnico pudieron influir en su percepción como una fuerza invasora en Grecia antigua.",
@@ -321,6 +321,6 @@
       "Hashtags": "#Acropoleis #HistoriaDeGrecia #CiudadAntigua #Civilización #Sobrevivencia #HistoriaDeTodo #Griegos #IdentidadTerritorial"
     }
   ],
-  "instancia": 1,
-  "ciclo": 3
+  "instancia": 2,
+  "ciclo": 4
 }
